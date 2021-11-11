@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Heebo', sans-serif;
+    color: #505050;
+}
+h1{font-size: 48px;}
+h2{font-size: 22px;}
+h3{font-size: 18px;}
+a{
+    text-decoration: none;
+    color: #505050;
+}
+hr{
+    height: 8px;
+    width: 60px; 
+    background-color: #686868;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+header{
+    width: 900px;
+    height: 200px;
+    margin: auto;
+    padding: 20px;
+    background-image: url(../img/bgimage.png);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-content: center;
+    justify-content:space-between;
+    /* position: fixed; */
+    border-left: 1px solid #d6d6d6;
+}
+#title{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 29px 54.5px 29px 304.5px;
+    position: absolute;
+}
+#profilePic{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: white 4px solid;
+}
+#pic{
+    z-index: 1;
+    position: absolute;
+}
+#pixel{
+    z-index: 2;
+    position: absolute;
+    top: 30px;
+    left: 92px;
+    width: 65px;
+    height: 55px;
+    border: none;
+    display: none;
+}
+main{
+    min-height: 600px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+}
+section div{
+    padding-bottom: 20px;
+}
+#personal{
+    width: 33%;
+    padding: 30px;
+    border-left: 1px solid #d6d6d6; 
+}
+#life{
+    width: 67%;
+    padding: 30px 80px;
+    background-color: #d6d6d6;
+}
+.experience{
+    margin-bottom: 20px;
+}
+ul{
+    padding-left: 30px;
+}
+nav p:hover{
+    border-bottom: 2px solid #fff;
+    transition: 0.25s;
+    background-color: rgba(192, 192, 192, 0.25)
+}
+#address{
+    background-image: url(../img/flaticons/location-sq.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+#email{
+    background-image: url(../img/flaticons/mail-sq.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+#number{
+    background-image: url(../img/flaticons/whatsapp-sq.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+#linkedin{
+    background-image: url(../img/flaticons/linkedin.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+#github{
+    background-image: url(../img/flaticons/github-sq.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}

@@ -61,7 +61,7 @@ img{
 #pic{
     z-index: 1;
     position: absolute;
-    box-shadow: 8px 3px 8px #505050;
+    box-shadow: -8px 3px 8px #505050;
 }
 #pixel{
     z-index: 2;
@@ -181,13 +181,14 @@ nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover{
 }
 #Agile-div{
     display: none;
-    width: 525px;
-    height: 450px;
+    width: 500px;
+    height: 425px;
     flex-direction: row;
     position: absolute;
     top: 495px;
-    left: 530px;
-    padding: 25px 25px 0px 0px;
+    left: 41%;
+    /* padding: 25px 25px 0px 0px; */
+    background-color: rgba(255, 255, 255, 0.75);
 }
     #Agile-btn{
         width: 25px;
@@ -203,13 +204,14 @@ nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover{
     }
 #PyBoot-div{
     display: none;
-    width: 525px;
-    height: 450px;
+    width: 500px;
+    height: 425px;
     flex-direction: row;
     position: absolute;
     top: 520px;
-    left: 470px;
-    padding: 25px 25px 0px 0px;
+    left: 38%;
+    /* padding: 25px 25px 0px 0px; */
+    background-color: rgba(255, 255, 255, 0.75);
 }
     #PyBoot-btn{
         width: 25px;
@@ -225,13 +227,14 @@ nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover{
     }
 #BI-div{
     display: none;
-    width: 525px;
-    height: 450px;
+    width: 500px;
+    height: 425px;
     flex-direction: row;
     position: absolute;
     top: 540px;
-    left: 418px;
-    padding: 25px 25px 0px 0px;
+    left: 35%;
+    /* padding: 25px 25px 0px 0px; */
+    background-color: rgba(255, 255, 255, 0.75);
 }
     #BI-btn{
         width: 25px;

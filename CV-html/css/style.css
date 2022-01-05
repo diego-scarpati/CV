@@ -61,7 +61,7 @@ img{
 #pic{
     z-index: 1;
     position: absolute;
-    box-shadow: -8px 3px 8px #505050;
+    box-shadow: -8px 3px 8px #505050; /* Comentar esto para pdf de safari */
 }
 #pixel{
     z-index: 2;
@@ -135,6 +135,12 @@ nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover{
     background-repeat: no-repeat;
     padding-left: 30px;
 }
+/* #web{
+    background-image: url(../img/flaticons/browser-sq.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+} */
 #map{
     display: none;
     flex-direction: row;

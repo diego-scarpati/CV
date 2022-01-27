@@ -1,12 +1,21 @@
 // Make pixel glasses appear when hovering Contact
 let pixelGlasses = document.getElementById('pixel');
 let contact = document.getElementById('contact');
-contact.addEventListener('mouseover', ()=>{
-    pixelGlasses.style.display = 'initial'
-})
-contact.addEventListener('mouseout', ()=>{
-    pixelGlasses.style.display = 'none'
-})
+const minWidth = window.matchMedia('(min-width: 901px)')
+const personal = document.querySelector('#personal')
+const screenSize = mql => {
+    if (mql.matches) {
+        contact.addEventListener('mouseover', ()=>{
+            pixelGlasses.style.display = 'initial'
+        })
+        contact.addEventListener('mouseout', ()=>{
+            pixelGlasses.style.display = 'none'
+        })
+    }
+}
+// screenSize(minWidth)
+// minWidth.addListener(screenSize)
+// window.addEventListener("resize", screenSize)
 
 // Clickable event to open and close map over address
 let address = document.getElementById('address');

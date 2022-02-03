@@ -65,7 +65,7 @@ img{
     position: absolute;
     box-shadow: -8px 3px 8px #505050; /* Comentar esto para pdf de safari */
 }
-#pixel{
+/* #pixel{
     z-index: 2;
     position: absolute;
     top: 30px;
@@ -74,7 +74,7 @@ img{
     height: 55px;
     border: none;
     display: none;
-}
+} */
 main{
     min-height: 600px;
     max-width: 900px; /* 100% */
@@ -101,7 +101,7 @@ section div{
 ul{
     padding-left: 30px;
 }
-nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover{
+nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover, #JavaScript:hover{
     border-bottom: 2px solid #fff;
     transition: 0.25s;
     background-color: rgba(192, 192, 192, 0.25);
@@ -130,7 +130,7 @@ nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover{
 /* #web{
     background-image: url(../img/flaticons/browser-sq.png);
 } */
-#map{
+#map-div{
     display: none;
     flex-direction: row;
     position: absolute;
@@ -139,6 +139,10 @@ nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover{
     padding: 5px;
     background-color: #fff;
 }
+    #map{
+        width: 500px;
+        height: 375px;
+    }
     #close{
         width: 25px;
         height: 25px;
@@ -169,7 +173,7 @@ nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover{
         width: auto;
     }
 
-#Agile, #PyBoot, #BI{
+#JavaScript, #Agile, #PyBoot, #BI{
     cursor: pointer;
 }
 .cert-div{
@@ -193,16 +197,20 @@ nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover{
         top: 0px;
         right: 0px;
     }
-#Agile-div{
+#JavaScript-div{
     top: 495px;
     left: 41%;
 }
-#PyBoot-div{
+#Agile-div{
     top: 520px;
+    left: 41%;
+}
+#PyBoot-div{
+    top: 545px;
     left: 38%;
 }
 #BI-div{
-    top: 540px;
+    top: 570px;
     left: 35%;
 }
 
@@ -384,6 +392,46 @@ nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover{
         background-repeat: no-repeat;
         padding-left: 20px;
     }
+    #map-div{
+        width: 400px;
+        height: 340px;
+        padding: 5px;
+    }
+    #map{
+        width: 390px;
+        height: 330px;
+    }
+    #close{
+        width: 25px;
+        height: 25px;
+        top: 5px;
+        right: 5px;
+
+    }
+    .cert-div{
+        width: 400px;
+        height: 340px;
+    }
+    .pdf{
+        width: 400px; /* 20:17 (25)*/
+        height: 340px;
+    }
+    #JavaScript-div{
+        top: 550px;
+        left: 10%;
+    }
+    #Agile-div{
+        top: 570px;
+        left: 10%;
+    }
+    #PyBoot-div{
+        top: 590px;
+        left: 10%;
+    }
+    #BI-div{
+        top: 610px;
+        left: 10%;
+    }
 } 
 @media screen and (min-width: 590px){
     h1{font-size: 38px;}
@@ -435,6 +483,46 @@ nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover{
         background-size: 16px 16px;
         background-repeat: no-repeat;
         padding-left: 25px;
+    }
+    #map-div{
+        width: 510px;
+        height: 385px;
+        padding: 5px;
+    }
+    #map{
+        width: 500px;
+        height: 375px;
+    }
+    #close{
+        width: 25px;
+        height: 25px;
+        top: 5px;
+        right: 5px;
+
+    }
+    .cert-div{
+        width: 500px;
+        height: 425px;
+    }
+    .pdf{
+        width: 500px; /* 20:17 (25)*/
+        height: 425px;
+    }
+    #JavaScript-div{
+        top: 550px;
+        left: 10%;
+    }
+    #Agile-div{
+        top: 570px;
+        left: 10%;
+    }
+    #PyBoot-div{
+        top: 590px;
+        left: 10%;
+    }
+    #BI-div{
+        top: 610px;
+        left: 10%;
     }
 } 
 @media screen and (min-width: 768px){
@@ -516,7 +604,7 @@ nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover{
         width: 55.56%;
         display: flex;
         flex-direction: column;
-        margin: 29px 6.05% 29px 33.83%;
+        margin: 29px 54.5px 29px 304.5px;
         position: absolute;
     }
     img{
@@ -539,5 +627,29 @@ nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover{
         background-size: 20px 20px;
         background-repeat: no-repeat;
         padding-left: 30px;
+    }
+    .cert-div{
+        width: 500px;
+        height: 425px;
+    }
+    .pdf{
+        width: 500px; /* 20:17 (25)*/
+        height: 425px;
+    }
+    #JavaScript-div{
+        top: 500px;
+        left: 30%;
+    }
+    #Agile-div{
+        top: 520px;
+        left: 30%;
+    }
+    #PyBoot-div{
+        top: 540px;
+        left: 30%;
+    }
+    #BI-div{
+        top: 560px;
+        left: 30%;
     }
 }

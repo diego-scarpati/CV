@@ -9,7 +9,10 @@
 </head>
 <body>
     <header>
-        <div id="profilePic"><img src="img/foto-cv.jpeg" id="pic"> <img src="img/pixel-glasses.png" id="pixel"> </div>
+        <div id="profilePic">
+            <img src="img/foto-cv.jpeg" id="pic"> 
+            <!-- <img src="img/pixel-glasses.png" id="pixel">  -->
+        </div>
         <div id="title">
             <h1>DIEGO SCARPATI</h1>
             <h2>IT STUDENT, DEVELOPER</h2>
@@ -22,8 +25,8 @@
                 <hr>
                 <nav>
                     <p id="address" class="contact">Juramento 3740, C.A.B.A., Argentina</p>
-                    <div id="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.5323418343114!2d-58.4643610849776!3d-34.56539438046935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d5e6273f73%3A0x3a983723199765ce!2sAv.%20Juramento%203740%2C%20C1428DNZ%20CABA!5e0!3m2!1ses!2sar!4v1636652671410!5m2!1ses!2sar" width="500" height="375" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <div id="map-div">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.5323418343114!2d-58.4643610849776!3d-34.56539438046935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d5e6273f73%3A0x3a983723199765ce!2sAv.%20Juramento%203740%2C%20C1428DNZ%20CABA!5e0!3m2!1ses!2sar!4v1636652671410!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" id="map"></iframe>
                         <button id="close">x</button>
                     </div>
                     <p><a href="mailto:diegoscarpati13gmail.com" id="email" class="contact" alt="Location">diegoscarpati13@gmail.com</a></p>
@@ -46,24 +49,29 @@
                     <p>Python Web Programming, 2021</p>
                     <p id="EdIT-Program"><a href="https://www.educacionit.com/carrera-python" target="_blank">Click to see its study program.</a></p>
                 </div>
+                <p><b>Udemy</b></p>
+                <p id="JavaScript">Full Stack JavaScript, 2022</p>
+                <div id="JavaScript-div" class="cert-div">
+                    <embed src="img/JavaScript.pdf" type="application/pdf" id="JavaScript-pdf" class="pdf">
+                    <button id="JavaScript-btn" class="btn">x</button>
+                </div>
+                <p id="Agile">Agile Project Management, 2021</p>
+                <div id="Agile-div" class="cert-div">
+                    <embed src="img/Agile.pdf" type="application/pdf" id="Agile-pdf" class="pdf">
+                    <button id="Agile-btn" class="btn">x</button>
+                </div>
+                <p id="PyBoot">Python Bootcamp, 2021</p>
+                <div id="PyBoot-div" class="cert-div">
+                    <embed src="img/Python-Bootcamp.pdf" type="application/pdf" id="PyBoot-pdf" class="pdf">
+                    <button id="PyBoot-btn" class="btn">x</button>
+                </div>        
+                <p id="BI">BI Analyst, 2020</p>
+                <div id="BI-div" class="cert-div">
+                    <embed src="img/BI-Analyst.pdf" type="application/pdf" id="BI-pdf" class="pdf">
+                    <button id="BI-btn" class="btn">x</button>
+                </div>
                 <p><b>University of Buenos Aires</b></p>
                 <p>Public Accounting, 2014 - Today</p>
-                <p><b>Udemy</b></p>
-                <p id="Agile">Agile Project Management, 2021</p>
-                    <div id="Agile-div" class="cert-div">
-                        <embed src="img/Agile.pdf" type="application/pdf" id="PyBoot-pdf" class="pdf">
-                        <button id="Agile-btn" class="btn">x</button>
-                    </div>        
-                <p id="PyBoot">Python Bootcamp, 2021</p>
-                    <div id="PyBoot-div" class="cert-div">
-                        <embed src="img/Python-Bootcamp.pdf" type="application/pdf" id="PyBoot-pdf" class="pdf">
-                        <button id="PyBoot-btn" class="btn">x</button>
-                    </div>        
-                <p id="BI">BI Analyst, 2020</p>
-                    <div id="BI-div" class="cert-div">
-                        <embed src="img/BI-Analyst.pdf" type="application/pdf" id="BI-pdf" class="pdf">
-                        <button id="BI-btn" class="btn">x</button>
-                    </div>
             </div>
         </section>
         <section id="life">
@@ -122,6 +130,7 @@
             </div>
         </section>
     </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

@@ -288,6 +288,46 @@ nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover, #JavaScript:ho
         background-repeat: no-repeat;
         padding-left: 20px;
     }
+    #map-div{
+        width: 340px;
+        height: 289px;
+        padding: 5px;
+    }
+    #map{
+        width: 330px;
+        height: 279px;
+    }
+    #close{
+        width: 25px;
+        height: 25px;
+        top: 5px;
+        right: 5px;
+
+    }
+    .cert-div{
+        width: 340px;
+        height: 289px;
+    }
+    .pdf{
+        width: 340px; /* 20:17 (25)*/
+        height: 289px;
+    }
+    #JavaScript-div{
+        top: 550px;
+        left: 5%;
+    }
+    #Agile-div{
+        top: 570px;
+        left: 5%;
+    }
+    #PyBoot-div{
+        top: 590px;
+        left: 5%;
+    }
+    #BI-div{
+        top: 610px;
+        left: 5%;
+    }
 } 
 @media screen and (min-width: 381px){
     h1{font-size: 26px;}
@@ -339,6 +379,46 @@ nav p:hover, #BI:hover, #PyBoot:hover, #EdIT:hover, #Agile:hover, #JavaScript:ho
         background-size: 11px 11px;
         background-repeat: no-repeat;
         padding-left: 20px;
+    }
+    #map-div{
+        width: 340px;
+        height: 289px;
+        padding: 5px;
+    }
+    #map{
+        width: 330px;
+        height: 279px;
+    }
+    #close{
+        width: 25px;
+        height: 25px;
+        top: 5px;
+        right: 5px;
+
+    }
+    .cert-div{
+        width: 340px;
+        height: 289px;
+    }
+    .pdf{
+        width: 340px; /* 20:17 (25)*/
+        height: 289px;
+    }
+    #JavaScript-div{
+        top: 550px;
+        left: 5%;
+    }
+    #Agile-div{
+        top: 570px;
+        left: 5%;
+    }
+    #PyBoot-div{
+        top: 590px;
+        left: 5%;
+    }
+    #BI-div{
+        top: 610px;
+        left: 5%;
     }
 } 
 @media screen and (min-width: 480px){
